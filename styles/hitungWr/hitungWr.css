@@ -1,0 +1,130 @@
+/* Color Combination From
+https://colorhunt.co/palette/002b5b2b4865256d858fe3cf
+*/
+
+.topWr{
+    font-size: 20px;
+    padding: 50px;
+    background-color: #002B5B;
+    text-align: center;
+    color: #ffffff;
+}
+
+/*nav tetap sepaket amamheader*/
+nav {
+    background-color: #2B4865;
+    padding: 6px;
+    position: sticky;
+    top: 0;
+}
+
+nav li{
+    display: inline;
+    list-style-type: none;
+    margin-right: 21px;
+}
+
+nav a{
+    font-size: 18px;
+    font-weight: 400;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+nav a:hover{
+    font-weight: bold;
+    color: rgb(0, 255, 38);
+}
+
+.container {
+    display: flex;
+    width: 100%;
+    height: 250px;
+    background-color: #256D85;
+    border: 2px solid black;
+    padding: 20px;
+    border-radius: 5px;
+    margin: 20px auto;
+    
+}
+.box {
+    flex-grow: 1;
+    background-color: #8FE3CF;
+    margin: 5px;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+
+#wrbox{
+    text-align: center;
+    margin-top: 10px;
+    font-size: medium;
+    font-family:serif;
+}
+
+.tagOutput{
+    text-align: center;
+}
+
+.tombolWr{
+    margin-top: 10px;
+}
+
+.inputan{
+    margin-top: 25px;
+}
+
+
+@media screen and (max-width: 1000px) {
+    #content,
+    aside {
+      width: 100%;
+      padding: 0;
+    }
+  }
+
+  body {
+    font-family: sans-serif;
+    margin: 0 ;
+    padding: 0;
+
+  }
+
+  #totalPertandingan {
+    border-radius: 3px;
+    margin-bottom: 15px;
+    width: 75%;
+    
+  }
+
+  #totalWr {
+    border-radius: 3px;
+    margin-bottom: 15px;
+    width: 75%;
+  }
+
+  #wrImpian {
+    border-radius: 3px;
+    margin-bottom: 15px;
+    width: 75%;
+  }
+
+  #hasilHitung{
+    background-color: white;
+    border-radius: 5px;
+  }
+
+  #tampilkanHasil {
+    text-align: center;
+    font-family: sans-serif;
+    font: bold;
+  }
+
+  .hasil {
+    text-align: center;
+  }
+
+  .bawahHasil {
+    text-align: center;
+  }

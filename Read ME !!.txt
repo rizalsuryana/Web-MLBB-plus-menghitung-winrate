@@ -1,0 +1,8 @@
+Halaman web yang dibuat mengikuti aturan dan berdasarkan materi yang di berikan dari dicoding,
+pemilihan warna yang di gunakan juga berdasarkan dari web yang di tunjuk oleh pihak dicoding pada modul
+
+
+Untuk index.htm / halaman utama tidak terdaat javascript dan DOM
+akan tetapi pada menu Hitung Winrate telah di tambahkan javaScript dan DOM
+
+mungkin jika ada tugas lanjutan saya akan melanjutkan web ini dengan menambahkan banyak fitur, tentunya setelah saya mendapatkan materi baru dari SIB ini ( lanjut ke modul Selanjutnya )

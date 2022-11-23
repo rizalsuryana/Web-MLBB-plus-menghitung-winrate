@@ -1,0 +1,201 @@
+/* Color Combination From
+https://colorhunt.co/palette/002b5b2b4865256d858fe3cf
+*/
+
+.judul {
+    font-size: 20px;
+    padding: 50px;
+    background-color: #002B5B;
+    text-align: center;
+    color: #ffffff;
+}
+
+nav li {
+    display: inline;
+    list-style-type: none;
+    margin-right: 21px;
+}
+
+/*header tetap*/
+header {
+    display: inline;
+}
+
+/*nav tetap sepaket amamheader*/
+nav {
+    background-color: #2B4865;
+    padding: 6px;
+    position: sticky;
+    top: 0;
+
+}
+
+nav a{
+    font-size: 18px;
+    font-weight: 400;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+nav a:hover{
+    font-weight: bold;
+    color: rgb(0, 255, 38);
+}
+
+h1 {
+    text-transform: uppercase;
+}
+
+main {
+    padding: 20px;
+    overflow: auto;
+}
+
+body{
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+h2{
+    color:#ffffff;
+}
+
+
+.admin header{
+    text-align: center;
+}
+
+
+.hero-img{
+    width: 100%;
+    max-height: 300px;
+    object-fit: cover;
+    object-position: center;
+}
+
+.admin img{
+    width: 75%;
+    max-height: 200px;
+    object-fit: cover;
+    object-position: center;
+}
+
+.format {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 2);
+    border-radius: 5px;
+    padding: 20px;
+    margin-top: 25px;
+    background-color: #256D85;
+    color: #ffffff;
+}
+
+#bawah {
+    float: left;
+    width: 100%;
+}
+.ttd{
+    box-shadow: 0 5px 10px 0 rgba(0, 0, 1, 2);
+    text-align: center;
+    padding: 20px;
+    margin-top: 10px;
+    background-color: #8FE3CF;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 5px;
+
+}
+
+footer > p {
+    color: #000000;
+}
+
+#content {
+    float: left;
+    width: 75%;
+}
+
+aside {
+    float: right;
+    width: 25%;
+    padding-left: 50px;
+}
+
+
+* {
+    box-sizing: border-box;
+}
+
+  @media screen and (max-width: 1000px) {
+    #content,
+    aside {
+      width: 100%;
+      padding: 0;
+    }
+  }
+
+  #barisbaru {
+    text-indent: 2em;
+    color: #ffffff;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Memberi warna ketika cursor di arahkan
+Dimana  rule akan diterapkan pada
+ sebuah tautan ketika diarahkan dengan kursor
+
+a:hover{
+    color: black;
+}
+
+/* rule akan diterapkan pada sebuah tautan yang belum pernah dikunjungi
+a:link {
+    color: red;
+ }
+  
+ /* rule akan diterapkan pada sebuah tautan yang sudah pernah dikunjungi 
+ a:visited {
+    color: green;
+ }
+  
+ /* rule akan diterapkan pada sebuah tautan ketika ditekan 
+ a:active {
+    color:orange;
+ }
+ */
